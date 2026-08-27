@@ -1,6 +1,6 @@
 # 🤖 IA Aplicada à Engenharia Química
 
-**Disciplina de pós-graduação (PPGEQ/UFCG)** — 30 aulas · 100 min cada
+**Disciplina de graduação (UAEQ/UFCG)** — 30 aulas · 100 min cada
 Dados sintéticos + notebooks prontos para **Google Colab**, alinhados aos planos de aula.
 
 > Este repositório centraliza **datasets sintéticos** (`dados/`) e **notebooks** (`notebooks/`)
@@ -143,7 +143,7 @@ Os notebooks já embutem a URL correta — o aluno apenas **abre no Colab e exec
 
 ## 📚 Disciplina
 
-**IA Aplicada à Engenharia Química** · PPGEQ/UFCG
+**IA Aplicada à Engenharia Química** · UAEQ/UFCG
 Professor: **Luis Gonzaga Sales Vasconcelos**
 
 _Repositório de apoio didático — dados 100% sintéticos gerados com seed fixa para reprodutibilidade._
