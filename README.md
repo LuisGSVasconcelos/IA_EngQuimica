@@ -38,21 +38,21 @@ IA_EngQuimica/
 
 | # | Tema | Dataset | Colab |
 |---|------|---------|-------|
-| 05 | ML Supervisionado | `aula04/coluna_destilacao_30dias.csv` | [abrir](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/aula05_ml_supervisionado.ipynb) |
+| 05 | ML Supervisionado | `aula05/coluna_destilacao_30dias.csv` | [abrir](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/aula05_ml_supervisionado.ipynb) |
 | 06 | Avaliação e Validação de Modelos | `aula06/` (4 datasets) | [abrir](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/aula06_validacao.ipynb) |
-| 07 | Conceito e Projeto de Soft-Sensors | `aula04/coluna_destilacao_30dias.csv` | [abrir](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/aula07_soft_sensors.ipynb) |
-| 08 | **Lab 1** Soft-Sensor | `aula04/coluna_destilacao_30dias.csv` | [Template](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/Lab1_SoftSensor_Template.ipynb) / [Gabarito](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/Lab1_SoftSensor_Gabarito.ipynb) |
-| 09 | Introdução a Redes Neurais | `aula04/coluna_destilacao_30dias.csv` | [abrir](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/aula09_redes_neurais.ipynb) |
+| 07 | Conceito e Projeto de Soft-Sensors | `aula07/coluna_destilacao_30dias.csv` | [abrir](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/aula07_soft_sensors.ipynb) |
+| 08 | **Lab 1** Soft-Sensor | `aula08/coluna_destilacao_30dias.csv` | [Template](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/Lab1_SoftSensor_Template.ipynb) / [Gabarito](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/Lab1_SoftSensor_Gabarito.ipynb) |
+| 09 | Introdução a Redes Neurais | `aula09/coluna_destilacao_30dias.csv` | [abrir](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/aula09_redes_neurais.ipynb) |
 | 10 | **Lab 2** Redes Neurais (Keras) | `aula10/reator_rendimento.csv` | [Template](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/Lab2_MLP_Keras_Template.ipynb) / [Gabarito](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/Lab2_MLP_Keras_Gabarito.ipynb) |
 | 11 | Modelagem Híbrida (Caixa-Cinza) | `aula11/` (3 datasets) | [abrir](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/aula11_hibrido.ipynb) |
-| 12 | **Lab 3** Modelo Híbrido | `aula11/` | [Template](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/Lab3_Hibrido_Template.ipynb) / [Gabarito](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/Lab3_Hibrido_Gabarito.ipynb) |
+| 12 | **Lab 3** Modelo Híbrido | `aula12/` | [Template](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/Lab3_Hibrido_Template.ipynb) / [Gabarito](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/Lab3_Hibrido_Gabarito.ipynb) |
 
 ### Módulo 3 — Modelagem Dinâmica
 
 | # | Tema | Dataset | Colab |
 |---|------|---------|-------|
 | 13 | Dinâmica de Processos e Séries Temporais | `aula13/reator_dinamico.csv` | [abrir](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/aula13_dinamica.ipynb) |
-| 14 | LSTM para Predição Dinâmica | `aula13/reator_dinamico.csv` | [abrir](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/aula14_lstm.ipynb) |
+| 14 | LSTM para Predição Dinâmica | `aula14/reator_dinamico.csv` | [abrir](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/aula14_lstm.ipynb) |
 
 ### Módulo 4 — Otimização, Controle e Confiabilidade
 
