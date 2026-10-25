@@ -3,6 +3,10 @@
 **Disciplina de graduação (UAEQ/UFCG)** — 30 aulas · 100 min cada
 Dados sintéticos + notebooks prontos para **Google Colab**, alinhados aos planos de aula.
 
+[![Código: MIT](https://img.shields.io/badge/c%C3%B3digo-MIT-22c55e)](LICENSE)
+[![Dados: CC BY 4.0](https://img.shields.io/badge/dados-CC%20BY%204.0-blue)](dados/LICENSE)
+[![Conteúdo: CC BY-NC-SA 4.0](https://img.shields.io/badge/conte%C3%BAdo-CC%20BY--NC--SA%204.0-orange)](LICENSE-CONTEUDO.md)
+
 > Este repositório centraliza **datasets sintéticos** (`dados/`) e **notebooks** (`notebooks/`)
 > da disciplina. Cada aula inclui também, em pasta local do professor, slides, diagramas
 > e (quando aplicável) gabaritos. Os alunos **não baixam nada**: os notebooks carregam os
@@ -102,10 +106,24 @@ Os notebooks já embutem a URL correta — o aluno apenas **abre no Colab e exec
 
 ## 🎓 Como usar o curso
 
-1. **Professores:** os notebooks prontos + gabaritos servem de base; datasets sintéticos são regeneráveis
-   pelos scripts em pasta local de cada aula (seed fixa `42`).
-2. **Alunos:** clique em **"abrir"** ao lado de cada aula → o notebook abre no Colab com os dados já carregados.
-3. **Colab gratuito:** sem limite de acesso simultâneo; ~12 h por sessão; CPU padrão é suficiente.
+1. **Alunos:** clique em **"abrir"** ao lado de cada aula → o notebook abre no Colab com os dados já carregados. Nada é instalado na máquina do aluno.
+2. **Colab gratuito:** ~12 h por sessão; a CPU padrão é suficiente — nenhum notebook exige GPU.
+
+### Usando este material em outra instituição
+
+O repositório foi desenhado para ser **reutilizado**, não apenas consultado:
+
+| Se você quer… | Como fazer |
+|---|---|
+| Rodar uma aula isolada | Abra o notebook no Colab e execute. O setup leva ~2 min. |
+| Ministrar o curso inteiro | Adote a sequência de 30 aulas: cada notebook traz objetivo, exercício guiado e tarefa pós-aula. |
+| Levar seus próprios dados industriais | Substitua o `pd.read_csv(...)` da primeira célula; o resto do código é agnóstico ao dataset. Publique apenas dados anonimizados ou sintéticos. |
+| Regenerar os datasets | Os geradores usam seed fixa `42` e ficam na pasta local de cada aula. Único ponto a trocar: a URL raw. |
+| Ensinar sem internet estável | Clone o repositório e rode localmente — dependências na seção abaixo. |
+
+**Dependências:** `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`, `xgboost`, `tensorflow`, `scipy`, `shap`.
+
+**Pré-requisitos dos alunos:** lógica de programação básica e balanço de massa/energia. Não é exigido curso prévio de machine learning — o Módulo 2 constrói isso do zero.
 
 ---
 
@@ -138,6 +156,26 @@ Os notebooks já embutem a URL correta — o aluno apenas **abre no Colab e exec
 | 20 | `trocador_e101_24h.csv` | Gêmeo digital / drift |
 | 21 | `shadow_test_composicao.csv` | Champion/challenger |
 | 22 | `torre_resfriamento_12m.csv` | Viés/sazonalidade (PSI) |
+
+---
+
+## 📄 Licença e citação
+
+Licenças diferentes por camada — código livre para reuso amplo, material didático protegido de uso comercial:
+
+| Camada | O que cobre | Licença | Permite |
+|---|---|---|---|
+| **Código** | `notebooks/`, scripts | **MIT** — [`LICENSE`](LICENSE) | usar, modificar, redistribuir, inclusive comercialmente |
+| **Dados** | `dados/` | **CC BY 4.0** — [`dados/LICENSE`](dados/LICENSE) | usar e redistribuir, com atribuição |
+| **Conteúdo didático** | planos, ementa, rubricas, slides, diagramas | **CC BY-NC-SA 4.0** — [`LICENSE-CONTEUDO.md`](LICENSE-CONTEUDO.md) | adaptar para uso educacional, sem uso comercial, sob a mesma licença |
+
+### Como citar
+
+Se este material apoiar sua disciplina ou pesquisa (metadados completos em [`CITATION.cff`](CITATION.cff)):
+
+> VASCONCELOS, L. G. S. **IA Aplicada à Engenharia Química: datasets sintéticos e notebooks**. Campina Grande: UFCG/UAEQ, 2026. Disponível em: https://github.com/LuisGSVasconcelos/IA_EngQuimica
+
+**DOI:** ao criar uma *release* no GitHub e conectá-la ao Zenodo, o repositório passa a ter DOI versionado e citável — recomendável antes de submeter o material a qualquer avaliação institucional.
 
 ---
 

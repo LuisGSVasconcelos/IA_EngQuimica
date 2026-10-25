@@ -1,0 +1,42 @@
+cff-version: "1.2.0"
+message: >-
+  Se este material apoiar sua disciplina, pesquisa ou material didático,
+  cite conforme abaixo.
+title: >-
+  IA Aplicada à Engenharia Química: datasets sintéticos e notebooks para
+  o ensino de aprendizado de máquina em engenharia de sistemas de processos
+type: software
+authors:
+  - family-names: Vasconcelos
+    given-names: Luis Gonzaga Sales
+    affiliation: >-
+      Universidade Federal de Campina Grande (UFCG) — Unidade Acadêmica de
+      Engenharia Química (UAEQ)
+abstract: >-
+  Conjunto didático de 30 aulas (100 min cada) para uma disciplina de
+  graduação em Inteligência Artificial aplicada à Engenharia Química, com
+  ênfase em engenharia de sistemas de processos. Inclui 24 datasets
+  sintéticos gerados com seed fixa (42), 26 notebooks Jupyter prontos para
+  execução no Google Colab — incluindo três laboratórios em versão template
+  e gabarito — cobrindo análise exploratória, aprendizado supervisionado,
+  validação de modelos, redesenho de soft-sensors, redes neurais MLP e LSTM,
+  modelagem híbrida caixa-cinza, otimização, controle preditivo (MPC),
+  manutenção preditiva (RUL), detecção de anomalias, interpretabilidade
+  (SHAP), gêmeos digitais, governança e ética.
+version: "1.0.0"
+date-released: "2026-10-25"
+license:
+  - MIT
+  - CC-BY-4.0
+repository-code: "https://github.com/LuisGSVasconcelos/IA_EngQuimica"
+url: "https://github.com/LuisGSVasconcelos/IA_EngQuimica"
+keywords:
+  - engenharia química
+  - inteligência artificial
+  - engenharia de sistemas de processos
+  - ensino de engenharia
+  - soft sensor
+  - machine learning
+  - controle preditivo
+  - Jupyter
+  - Google Colab
