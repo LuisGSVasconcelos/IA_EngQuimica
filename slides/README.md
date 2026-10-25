@@ -30,6 +30,28 @@ Ao editar um `.pptx`, regenere o PDF correspondente — os dois precisam ficar e
 Se a diferença de peso incomodar, o PDF comprime bem mais com Ghostscript
 (`gs -sDEVICE=pdfwrite -dPDFSETTINGS=/ebook`), ao custo de nitidez nos diagramas.
 
+### Script de sincronização
+
+Na raiz do repositório há `atualizar-pdfs.sh`, que converte **somente** os decks
+desatualizados — comparando a data do `.pptx` com a do `.pdf` correspondente:
+
+```bash
+./atualizar-pdfs.sh            # converte só o que mudou
+./atualizar-pdfs.sh --dry-run  # lista o que faria, sem converter
+./atualizar-pdfs.sh --todos    # força as 27 conversões
+./atualizar-pdfs.sh --commit   # converte e faz o commit das mudanças
+```
+
+Como funciona: para cada `slides/Aula_*.pptx`, o script converte se o PDF não existir
+ou for mais antigo que o PPTX. Decks já sincronizados não são tocados, então o comando
+termina em segundos no caso normal.
+
+> **Atenção:** o PDF carrega data de criação nos metadados, então **regerar um deck
+> inalterado ainda aparece como alteração no git** (mesmo tamanho, bytes diferentes).
+> Use `--dry-run` antes de commitar em lote para não poluir o histórico.
+
+O script não faz `push`: publicar continua sendo `git push origin main`.
+
 ## Como editar
 
 - **PowerPoint**, **Google Slides** ou **LibreOffice Impress** abrem os arquivos sem conversão.

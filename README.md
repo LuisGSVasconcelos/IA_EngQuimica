@@ -28,6 +28,9 @@ IA_EngQuimica/
     └── pdf/                   # as mesmas 27 apresentações em PDF (para projetar)
 ```
 
+`atualizar-pdfs.sh` mantém `slides/pdf/` sincronizado com `slides/` — converte só os
+decks que mudaram (`--dry-run` para ver, `--todos` para forçar, `--commit` para commitar).
+
 ---
 
 ## 📊 Índice das 30 Aulas
