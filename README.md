@@ -24,9 +24,15 @@ IA_EngQuimica/
 ├── notebooks/                 # Notebooks .ipynb prontos para Colab
 │   ├── aula01_exercicio.ipynb …
 │   └── LabN_*_(Template/Gabarito).ipynb   # Laboratórios
-└── slides/                    # Apresentações .pptx (27 decks, 265 slides)
-    ├── Aula_01_*.pptx … Aula_30_*.pptx    # aulas 08, 10 e 12 não têm deck (são labs)
-    └── pdf/                   # as mesmas 27 apresentações em PDF (para projetar)
+├── slides/                    # Apresentações .pptx (27 decks, 265 slides)
+│   ├── Aula_01_*.pptx … Aula_30_*.pptx    # aulas 08, 10 e 12 não têm deck (são labs)
+│   └── pdf/                   # as mesmas 27 apresentações em PDF (para projetar)
+└── professor/                 # Guia do Professor (para quem vai ministrar)
+    ├── ementa.md              # projeto pedagógico, competências, bibliografia
+    ├── cronograma.md          # uma página por aula
+    ├── rubricas.md            # correção por níveis + política de uso de IA
+    ├── armadilhas.md          # o que quebra e o que fazer
+    └── guia-do-professor.pdf  # os quatro consolidados (40 páginas)
 ```
 
 `atualizar-pdfs.sh` mantém `slides/pdf/` sincronizado com `slides/` — converte só os
@@ -128,6 +134,13 @@ O repositório foi desenhado para ser **reutilizado**, não apenas consultado:
 | Levar seus próprios dados industriais | Substitua o `pd.read_csv(...)` da primeira célula; o resto do código é agnóstico ao dataset. Publique apenas dados anonimizados ou sintéticos. |
 | Regenerar os datasets | Os geradores usam seed fixa `42` e ficam na pasta local de cada aula. Único ponto a trocar: a URL raw. |
 | Ensinar sem internet estável | Clone o repositório e rode localmente: `pip install -r requirements.txt` |
+
+### Guia do Professor
+
+Quem vai **ministrar** a disciplina começa em [`professor/`](professor/) — não nos notebooks.
+Lá está o projeto pedagógico (ementa, competências, progressão Bloom), o cronograma com uma
+página por aula, as rubricas de correção e o capítulo de armadilhas. Versão consolidada em
+[`professor/guia-do-professor.pdf`](professor/guia-do-professor.pdf) (40 páginas).
 
 **Dependências:** `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`, `xgboost`, `tensorflow`, `scipy`, `shap`, `tabulate` — versões mínimas em [`requirements.txt`](requirements.txt).
 
