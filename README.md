@@ -42,28 +42,28 @@ IA_EngQuimica/
 
 | # | Tema | Dataset | Colab |
 |---|------|---------|-------|
-| 05 | ML Supervisionado | `aula05/coluna_destilacao_30dias.csv` | [abrir](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/aula05_ml_supervisionado.ipynb) |
+| 05 | ML Supervisionado | ↺ `aula04/coluna_destilacao_30dias.csv` | [abrir](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/aula05_ml_supervisionado.ipynb) |
 | 06 | Avaliação e Validação de Modelos | `aula06/` (4 datasets) | [abrir](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/aula06_validacao.ipynb) |
-| 07 | Conceito e Projeto de Soft-Sensors | `aula07/coluna_destilacao_30dias.csv` | [abrir](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/aula07_soft_sensors.ipynb) |
-| 08 | **Lab 1** Soft-Sensor | `aula08/coluna_destilacao_30dias.csv` | [Template](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/Lab1_SoftSensor_Template.ipynb) / [Gabarito](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/Lab1_SoftSensor_Gabarito.ipynb) |
-| 09 | Introdução a Redes Neurais | `aula09/coluna_destilacao_30dias.csv` | [abrir](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/aula09_redes_neurais.ipynb) |
+| 07 | Conceito e Projeto de Soft-Sensors | ↺ `aula04/coluna_destilacao_30dias.csv` | [abrir](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/aula07_soft_sensors.ipynb) |
+| 08 | **Lab 1** Soft-Sensor | ↺ `aula04/coluna_destilacao_30dias.csv` | [Template](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/Lab1_SoftSensor_Template.ipynb) / [Gabarito](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/Lab1_SoftSensor_Gabarito.ipynb) |
+| 09 | Introdução a Redes Neurais | ↺ `aula04/coluna_destilacao_30dias.csv` | [abrir](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/aula09_redes_neurais.ipynb) |
 | 10 | **Lab 2** Redes Neurais (Keras) | `aula10/reator_rendimento.csv` | [Template](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/Lab2_MLP_Keras_Template.ipynb) / [Gabarito](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/Lab2_MLP_Keras_Gabarito.ipynb) |
 | 11 | Modelagem Híbrida (Caixa-Cinza) | `aula11/` (3 datasets) | [abrir](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/aula11_hibrido.ipynb) |
-| 12 | **Lab 3** Modelo Híbrido | `aula12/` | [Template](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/Lab3_Hibrido_Template.ipynb) / [Gabarito](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/Lab3_Hibrido_Gabarito.ipynb) |
+| 12 | **Lab 3** Modelo Híbrido | ↺ `aula11/cstr_hibrido.csv` | [Template](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/Lab3_Hibrido_Template.ipynb) / [Gabarito](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/Lab3_Hibrido_Gabarito.ipynb) |
 
 ### Módulo 3 — Modelagem Dinâmica
 
 | # | Tema | Dataset | Colab |
 |---|------|---------|-------|
 | 13 | Dinâmica de Processos e Séries Temporais | `aula13/reator_dinamico.csv` | [abrir](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/aula13_dinamica.ipynb) |
-| 14 | LSTM para Predição Dinâmica | `aula14/reator_dinamico.csv` | [abrir](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/aula14_lstm.ipynb) |
+| 14 | LSTM para Predição Dinâmica | ↺ `aula13/reator_dinamico.csv` | [abrir](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/aula14_lstm.ipynb) |
 
 ### Módulo 4 — Otimização, Controle e Confiabilidade
 
 | # | Tema | Dataset | Colab |
 |---|------|---------|-------|
 | 15 | Otimização de Processos com IA | `aula15/cstr_rendimento.csv` | [abrir](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/aula15_otimizacao.ipynb) |
-| 16 | Controle Avançado (MPC) | `aula16/reator_fopdt_openloop.csv` | [abrir](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/aula16_mpc.ipynb) |
+| 16 | Controle Avançado (MPC) | — (FOPDT simulado no notebook) | [abrir](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/aula16_mpc.ipynb) |
 | 17 | Manutenção Preditiva e RUL | `aula17/` (2 datasets) | [abrir](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/aula17_rul.ipynb) |
 | 18 | Detecção de Anomalias | `aula18/` (2 datasets) | [abrir](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/aula18_anomalias.ipynb) |
 
@@ -136,20 +136,26 @@ O repositório foi desenhado para ser **reutilizado**, não apenas consultado:
 
 ---
 
-## 📦 Datasets (24 arquivos, seed 42)
+## 📦 Datasets (34 arquivos, seed 42)
+
+> **↺ = reutiliza o dataset de uma aula anterior, de propósito.** As aulas 05, 07, 08 e 09
+> trabalham sobre `aula04/coluna_destilacao_30dias.csv` — mesmo processo, tarefas cognitivas
+> diferentes (regressão → validação → projeto de soft-sensor → rede neural). As aulas 12 e 14
+> reutilizam `aula11/` e `aula13/` pelo mesmo motivo: quem troca de dataset a cada aula
+> aprende ferramenta, não método.
 
 | Aula | Arquivos | Descrição |
 |------|----------|-----------|
 | 01 | `coluna_destilacao_24h.csv` | Coluna de destilação (2880 pts) |
 | 02 | `trocador_calor_24h_sujo.csv`, variantes A–D | Qualidade de dados (NaN, outliers, ruído, drift) |
 | 03 | `cstr_lab_10min`, `cstr_processo_1min`, `trocador_calor_features`, `trocador_U_semanal` | Feature engineering |
-| 04 | `coluna_destilacao_30dias.csv` + 4 semanas | Base central das Aulas 04–08 |
+| 04 | `coluna_destilacao_30dias.csv` + 4 semanas | Base central das Aulas 04, 05, 07, 08 e 09 |
 | 06 | `cenario_A/B/C`, `cstr_features` | Validação (over/underfitting) |
 | 10 | `reator_rendimento.csv` | Rendimento de CSTR (20 000 pts) |
 | 11 | `cstr_hibrido`, `*_extrapolacao`, `trocador_hibrido` | Modelagem híbrida |
 | 13 | `reator_dinamico.csv` | FOPDT (τ=10, θ=5) |
 | 15 | `cstr_rendimento.csv` | Superfície com ótimo real |
-| 16 | `reator_fopdt_openloop.csv` | MPC |
+| 16 | `reator_fopdt_openloop.csv` | MPC — apoio: degrau em F_alimentação → C_A (300 pts); o notebook simula o FOPDT inline |
 | 17 | `trocador_degradacao`, `bomba_vibracao` | RUL |
 | 18 | `reator_4falhas`, `reator_troca_calor` | Anomalias |
 | 19 | `cstr_exotermico_xai.csv` | XAI/SHAP |
