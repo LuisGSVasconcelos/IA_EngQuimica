@@ -15,19 +15,21 @@ authors:
 abstract: >-
   Conjunto didático de 30 aulas (100 min cada) para uma disciplina de
   graduação em Inteligência Artificial aplicada à Engenharia Química, com
-  ênfase em engenharia de sistemas de processos. Inclui 24 datasets
-  sintéticos gerados com seed fixa (42), 26 notebooks Jupyter prontos para
-  execução no Google Colab — incluindo três laboratórios em versão template
-  e gabarito — cobrindo análise exploratória, aprendizado supervisionado,
-  validação de modelos, redesenho de soft-sensors, redes neurais MLP e LSTM,
-  modelagem híbrida caixa-cinza, otimização, controle preditivo (MPC),
-  manutenção preditiva (RUL), detecção de anomalias, interpretabilidade
-  (SHAP), gêmeos digitais, governança e ética.
-version: "1.1.0"
+  ênfase em engenharia de sistemas de processos. Inclui 34 arquivos de dados
+  sintéticos (16 conjuntos, um por aula técnica) gerados com seed fixa (42),
+  26 notebooks Jupyter prontos para execução no Google Colab — incluindo três
+  laboratórios em versão template e gabarito — e 27 apresentações em PPTX e
+  PDF, cobrindo análise exploratória, aprendizado supervisionado, validação de
+  modelos, redesenho de soft-sensors, redes neurais MLP e LSTM, modelagem
+  híbrida caixa-cinza, otimização, controle preditivo (MPC), manutenção
+  preditiva (RUL), detecção de anomalias, interpretabilidade (SHAP), gêmeos
+  digitais, governança e ética. Licenciamento por camada: código dos notebooks
+  em MIT; dados em CC BY 4.0; conteúdo didático (apresentações, planos, rubricas)
+  em CC BY-NC-SA 4.0 — ver LICENSE, dados/LICENSE e LICENSE-CONTEUDO.md no
+  repositório.
+version: "1.1.1"
 date-released: "2026-10-25"
-license:
-  - MIT
-  - CC-BY-4.0
+license: MIT
 repository-code: "https://github.com/LuisGSVasconcelos/IA_EngQuimica"
 url: "https://github.com/LuisGSVasconcelos/IA_EngQuimica"
 keywords:
