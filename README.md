@@ -126,9 +126,9 @@ O repositório foi desenhado para ser **reutilizado**, não apenas consultado:
 | Ministrar o curso inteiro | Adote a sequência de 30 aulas: cada notebook traz objetivo, exercício guiado e tarefa pós-aula. |
 | Levar seus próprios dados industriais | Substitua o `pd.read_csv(...)` da primeira célula; o resto do código é agnóstico ao dataset. Publique apenas dados anonimizados ou sintéticos. |
 | Regenerar os datasets | Os geradores usam seed fixa `42` e ficam na pasta local de cada aula. Único ponto a trocar: a URL raw. |
-| Ensinar sem internet estável | Clone o repositório e rode localmente — dependências na seção abaixo. |
+| Ensinar sem internet estável | Clone o repositório e rode localmente: `pip install -r requirements.txt` |
 
-**Dependências:** `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`, `xgboost`, `tensorflow`, `scipy`, `shap`.
+**Dependências:** `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`, `xgboost`, `tensorflow`, `scipy`, `shap`, `tabulate` — versões mínimas em [`requirements.txt`](requirements.txt).
 
 **Pré-requisitos dos alunos:** lógica de programação básica e balanço de massa/energia. Não é exigido curso prévio de machine learning — o Módulo 2 constrói isso do zero.
 
@@ -169,6 +169,31 @@ O repositório foi desenhado para ser **reutilizado**, não apenas consultado:
 | 20 | `trocador_e101_24h.csv` | Gêmeo digital / drift |
 | 21 | `shadow_test_composicao.csv` | Champion/challenger |
 | 22 | `torre_resfriamento_12m.csv` | Viés/sazonalidade (PSI) |
+
+---
+
+## ✅ Verificação de execução
+
+Os **26 notebooks foram executados de ponta a ponta** (não apenas abertos) em 2026-10-25:
+**517 células**, 9,7 min no total, Python 3.12.11, TensorFlow 2.21.0 em CPU. Nenhum exige GPU.
+
+| Item | Resultado |
+|---|---|
+| Notebooks que executam sem erro | **26 de 26** |
+| Pacote não declarado encontrado | 1 — `tabulate` (usado por `to_markdown()` na aula 05); agora em `requirements.txt` |
+| Mais lento | `aula07_soft_sensors.ipynb`, 186 s (treino de vários modelos) |
+| Demais | apenas 1 acima de 80 s; mediana de 9,7 s (mínimo 2,8 s) |
+
+Reproduzir:
+
+```bash
+pip install -r requirements.txt
+jupyter nbconvert --execute --to notebook --inplace notebooks/aula01_exercicio.ipynb
+```
+
+> A verificação roda em ambiente limpo, que é mais rigoroso que o Colab: o Colab já traz
+> `tabulate` e outras bibliotecas pré-instaladas, e por isso esconde dependências ausentes
+> de quem clona o repositório.
 
 ---
 

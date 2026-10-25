@@ -1,0 +1,18 @@
+# Dependências do curso — verificadas em Python 3.12.11 / Windows
+#
+#   pip install -r requirements.txt
+#
+# No Google Colab nada precisa ser instalado: todos já vêm na imagem.
+# Versões testadas na verificação de execução dos 26 notebooks:
+#   tensorflow 2.21.0 · scikit-learn 1.9.1 · xgboost 3.4.1 · shap 0.54.1
+
+pandas>=2.0
+numpy>=1.26
+matplotlib>=3.8
+seaborn>=0.13
+scikit-learn>=1.4
+xgboost>=2.0
+tensorflow>=2.15
+scipy>=1.11
+shap>=0.44
+tabulate>=0.9
