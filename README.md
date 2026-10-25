@@ -3,6 +3,7 @@
 **Disciplina de graduação (UAEQ/UFCG)** — 30 aulas · 100 min cada
 Dados sintéticos + notebooks prontos para **Google Colab**, alinhados aos planos de aula.
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23649424.svg)](https://doi.org/10.5281/zenodo.23649424)
 [![Código: MIT](https://img.shields.io/badge/c%C3%B3digo-MIT-22c55e)](LICENSE)
 [![Dados: CC BY 4.0](https://img.shields.io/badge/dados-CC%20BY%204.0-blue)](dados/LICENSE)
 [![Conteúdo: CC BY-NC-SA 4.0](https://img.shields.io/badge/conte%C3%BAdo-CC%20BY--NC--SA%204.0-orange)](LICENSE-CONTEUDO.md)
@@ -211,9 +212,9 @@ Licenças diferentes por camada — código livre para reuso amplo, material did
 
 Se este material apoiar sua disciplina ou pesquisa (metadados completos em [`CITATION.cff`](CITATION.cff)):
 
-> VASCONCELOS, L. G. S. **IA Aplicada à Engenharia Química: datasets sintéticos e notebooks**. Campina Grande: UFCG/UAEQ, 2026. Disponível em: https://github.com/LuisGSVasconcelos/IA_EngQuimica
+> VASCONCELOS, L. G. S. **IA Aplicada à Engenharia Química: datasets sintéticos e notebooks**. Campina Grande: UFCG/UAEQ, 2026. DOI: 10.5281/zenodo.23649424. Disponível em: https://github.com/LuisGSVasconcelos/IA_EngQuimica
 
-**DOI:** ao criar uma *release* no GitHub e conectá-la ao Zenodo, o repositório passa a ter DOI versionado e citável — recomendável antes de submeter o material a qualquer avaliação institucional.
+**DOI:** `10.5281/zenodo.23649424` (concept DOI — válido para todas as versões) · a versão atual está arquivada em `10.5281/zenodo.23649425`.
 
 ---
 
