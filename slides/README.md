@@ -9,8 +9,26 @@ o conteúdo executável está nos notebooks e o detalhamento está nos planos de
 | Aulas com deck | 01–07, 09, 11, 13–30 |
 | Aulas **sem** deck | 08, 10 e 12 — são os três laboratórios, conduzidos direto no notebook |
 | Média | 10 slides por aula (28–30 têm 7–8, por serem de encerramento) |
-| Imagens embutidas | apenas `Aula_02` (2 imagens, ~100 KB); os demais são texto e vetor |
-| Peso total | 1,2 MB |
+| Imagens embutidas | apenas `Aula_02` (2 capturas de tela); os demais são texto e vetor |
+| Peso | 1,2 MB em `.pptx` · 9,8 MB em `.pdf` (as fontes vão embutidas) |
+
+## Duas versões
+
+| Formato | Onde | Para quê |
+|---|---|---|
+| `.pptx` | `slides/` | **fonte editável** — abrir no PowerPoint, Google Slides ou LibreOffice e adaptar |
+| `.pdf` | `slides/pdf/` | **projetar e distribuir** — abre em qualquer máquina sem Office, layout congelado |
+
+Os 27 PDFs têm 265 páginas no total, idênticas aos 265 slides, com as fontes Calibri
+embutidas em subconjunto. Gerados com LibreOffice 26.8 em modo headless:
+
+```bash
+soffice --headless --convert-to pdf --outdir pdf slides/Aula_*.pptx
+```
+
+Ao editar um `.pptx`, regenere o PDF correspondente — os dois precisam ficar em sincronia.
+Se a diferença de peso incomodar, o PDF comprime bem mais com Ghostscript
+(`gs -sDEVICE=pdfwrite -dPDFSETTINGS=/ebook`), ao custo de nitidez nos diagramas.
 
 ## Como editar
 

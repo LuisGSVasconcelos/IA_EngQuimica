@@ -24,7 +24,8 @@ IA_EngQuimica/
 │   ├── aula01_exercicio.ipynb …
 │   └── LabN_*_(Template/Gabarito).ipynb   # Laboratórios
 └── slides/                    # Apresentações .pptx (27 decks, 265 slides)
-    └── Aula_01_*.pptx … Aula_30_*.pptx    # aulas 08, 10 e 12 não têm deck (são labs)
+    ├── Aula_01_*.pptx … Aula_30_*.pptx    # aulas 08, 10 e 12 não têm deck (são labs)
+    └── pdf/                   # as mesmas 27 apresentações em PDF (para projetar)
 ```
 
 ---
@@ -35,61 +36,61 @@ IA_EngQuimica/
 
 | # | Tema | Dataset | Colab | Slides |
 |---|------|---------|-------|--------|
-| 01 | Introdução à IA na EQ | `aula01/coluna_destilacao_24h.csv` | [abrir](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/aula01_exercicio.ipynb) | [pptx](slides/Aula_01_Introducao_IA_EngQuimica.pptx) |
-| 02 | Estrutura e Tratamento de Dados Industriais | `aula02/` (5 datasets) | [abrir](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/aula02_limpeza.ipynb) | [pptx](slides/Aula_02_Tratamento_Dados_Industriais.pptx) |
-| 03 | Engenharia de Features Industriais | `aula03/` (4 datasets) | [abrir](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/aula03_features.ipynb) | [pptx](slides/Aula_03_Features_Industriais.pptx) |
-| 04 | Análise Exploratória e Visualização | `aula04/coluna_destilacao_30dias.csv` | [abrir](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/aula04_eda.ipynb) | [pptx](slides/Aula_04_EDA.pptx) |
+| 01 | Introdução à IA na EQ | `aula01/coluna_destilacao_24h.csv` | [abrir](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/aula01_exercicio.ipynb) | [pptx](slides/Aula_01_Introducao_IA_EngQuimica.pptx) · [pdf](slides/pdf/Aula_01_Introducao_IA_EngQuimica.pdf) |
+| 02 | Estrutura e Tratamento de Dados Industriais | `aula02/` (5 datasets) | [abrir](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/aula02_limpeza.ipynb) | [pptx](slides/Aula_02_Tratamento_Dados_Industriais.pptx) · [pdf](slides/pdf/Aula_02_Tratamento_Dados_Industriais.pdf) |
+| 03 | Engenharia de Features Industriais | `aula03/` (4 datasets) | [abrir](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/aula03_features.ipynb) | [pptx](slides/Aula_03_Features_Industriais.pptx) · [pdf](slides/pdf/Aula_03_Features_Industriais.pdf) |
+| 04 | Análise Exploratória e Visualização | `aula04/coluna_destilacao_30dias.csv` | [abrir](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/aula04_eda.ipynb) | [pptx](slides/Aula_04_EDA.pptx) · [pdf](slides/pdf/Aula_04_EDA.pdf) |
 
 ### Módulo 2 — Aprendizado de Máquina
 
 | # | Tema | Dataset | Colab | Slides |
 |---|------|---------|-------|--------|
-| 05 | ML Supervisionado | ↺ `aula04/coluna_destilacao_30dias.csv` | [abrir](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/aula05_ml_supervisionado.ipynb) | [pptx](slides/Aula_05_ML_Supervisionado.pptx) |
-| 06 | Avaliação e Validação de Modelos | `aula06/` (4 datasets) | [abrir](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/aula06_validacao.ipynb) | [pptx](slides/Aula_06_Validacao.pptx) |
-| 07 | Conceito e Projeto de Soft-Sensors | ↺ `aula04/coluna_destilacao_30dias.csv` | [abrir](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/aula07_soft_sensors.ipynb) | [pptx](slides/Aula_07_Soft_Sensors.pptx) |
+| 05 | ML Supervisionado | ↺ `aula04/coluna_destilacao_30dias.csv` | [abrir](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/aula05_ml_supervisionado.ipynb) | [pptx](slides/Aula_05_ML_Supervisionado.pptx) · [pdf](slides/pdf/Aula_05_ML_Supervisionado.pdf) |
+| 06 | Avaliação e Validação de Modelos | `aula06/` (4 datasets) | [abrir](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/aula06_validacao.ipynb) | [pptx](slides/Aula_06_Validacao.pptx) · [pdf](slides/pdf/Aula_06_Validacao.pdf) |
+| 07 | Conceito e Projeto de Soft-Sensors | ↺ `aula04/coluna_destilacao_30dias.csv` | [abrir](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/aula07_soft_sensors.ipynb) | [pptx](slides/Aula_07_Soft_Sensors.pptx) · [pdf](slides/pdf/Aula_07_Soft_Sensors.pdf) |
 | 08 | **Lab 1** Soft-Sensor | ↺ `aula04/coluna_destilacao_30dias.csv` | [Template](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/Lab1_SoftSensor_Template.ipynb) / [Gabarito](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/Lab1_SoftSensor_Gabarito.ipynb) | — (lab em notebook) |
-| 09 | Introdução a Redes Neurais | ↺ `aula04/coluna_destilacao_30dias.csv` | [abrir](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/aula09_redes_neurais.ipynb) | [pptx](slides/Aula_09_Redes_Neurais.pptx) |
+| 09 | Introdução a Redes Neurais | ↺ `aula04/coluna_destilacao_30dias.csv` | [abrir](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/aula09_redes_neurais.ipynb) | [pptx](slides/Aula_09_Redes_Neurais.pptx) · [pdf](slides/pdf/Aula_09_Redes_Neurais.pdf) |
 | 10 | **Lab 2** Redes Neurais (Keras) | `aula10/reator_rendimento.csv` | [Template](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/Lab2_MLP_Keras_Template.ipynb) / [Gabarito](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/Lab2_MLP_Keras_Gabarito.ipynb) | — (lab em notebook) |
-| 11 | Modelagem Híbrida (Caixa-Cinza) | `aula11/` (3 datasets) | [abrir](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/aula11_hibrido.ipynb) | [pptx](slides/Aula_11_Hibrido.pptx) |
+| 11 | Modelagem Híbrida (Caixa-Cinza) | `aula11/` (3 datasets) | [abrir](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/aula11_hibrido.ipynb) | [pptx](slides/Aula_11_Hibrido.pptx) · [pdf](slides/pdf/Aula_11_Hibrido.pdf) |
 | 12 | **Lab 3** Modelo Híbrido | ↺ `aula11/cstr_hibrido.csv` | [Template](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/Lab3_Hibrido_Template.ipynb) / [Gabarito](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/Lab3_Hibrido_Gabarito.ipynb) | — (lab em notebook) |
 
 ### Módulo 3 — Modelagem Dinâmica
 
 | # | Tema | Dataset | Colab | Slides |
 |---|------|---------|-------|--------|
-| 13 | Dinâmica de Processos e Séries Temporais | `aula13/reator_dinamico.csv` | [abrir](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/aula13_dinamica.ipynb) | [pptx](slides/Aula_13_Dinamica.pptx) |
-| 14 | LSTM para Predição Dinâmica | ↺ `aula13/reator_dinamico.csv` | [abrir](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/aula14_lstm.ipynb) | [pptx](slides/Aula_14_LSTM.pptx) |
+| 13 | Dinâmica de Processos e Séries Temporais | `aula13/reator_dinamico.csv` | [abrir](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/aula13_dinamica.ipynb) | [pptx](slides/Aula_13_Dinamica.pptx) · [pdf](slides/pdf/Aula_13_Dinamica.pdf) |
+| 14 | LSTM para Predição Dinâmica | ↺ `aula13/reator_dinamico.csv` | [abrir](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/aula14_lstm.ipynb) | [pptx](slides/Aula_14_LSTM.pptx) · [pdf](slides/pdf/Aula_14_LSTM.pdf) |
 
 ### Módulo 4 — Otimização, Controle e Confiabilidade
 
 | # | Tema | Dataset | Colab | Slides |
 |---|------|---------|-------|--------|
-| 15 | Otimização de Processos com IA | `aula15/cstr_rendimento.csv` | [abrir](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/aula15_otimizacao.ipynb) | [pptx](slides/Aula_15_Otimizacao.pptx) |
-| 16 | Controle Avançado (MPC) | — (FOPDT simulado no notebook) | [abrir](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/aula16_mpc.ipynb) | [pptx](slides/Aula_16_MPC.pptx) |
-| 17 | Manutenção Preditiva e RUL | `aula17/` (2 datasets) | [abrir](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/aula17_rul.ipynb) | [pptx](slides/Aula_17_Manutencao.pptx) |
-| 18 | Detecção de Anomalias | `aula18/` (2 datasets) | [abrir](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/aula18_anomalias.ipynb) | [pptx](slides/Aula_18_Anomalias.pptx) |
+| 15 | Otimização de Processos com IA | `aula15/cstr_rendimento.csv` | [abrir](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/aula15_otimizacao.ipynb) | [pptx](slides/Aula_15_Otimizacao.pptx) · [pdf](slides/pdf/Aula_15_Otimizacao.pdf) |
+| 16 | Controle Avançado (MPC) | — (FOPDT simulado no notebook) | [abrir](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/aula16_mpc.ipynb) | [pptx](slides/Aula_16_MPC.pptx) · [pdf](slides/pdf/Aula_16_MPC.pdf) |
+| 17 | Manutenção Preditiva e RUL | `aula17/` (2 datasets) | [abrir](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/aula17_rul.ipynb) | [pptx](slides/Aula_17_Manutencao.pptx) · [pdf](slides/pdf/Aula_17_Manutencao.pdf) |
+| 18 | Detecção de Anomalias | `aula18/` (2 datasets) | [abrir](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/aula18_anomalias.ipynb) | [pptx](slides/Aula_18_Anomalias.pptx) · [pdf](slides/pdf/Aula_18_Anomalias.pdf) |
 
 ### Módulo 5 — IA no Ciclo de Vida do Modelo
 
 | # | Tema | Dataset | Colab | Slides |
 |---|------|---------|-------|--------|
-| 19 | Interpretabilidade e Explicabilidade (XAI) | `aula19/cstr_exotermico_xai.csv` | [abrir](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/aula19_xai.ipynb) | [pptx](slides/Aula_19_XAI.pptx) |
-| 20 | Gêmeos Digitais, IIoT e LLM | `aula20/trocador_e101_24h.csv` | [abrir](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/aula20_twin_iiot.ipynb) | [pptx](slides/Aula_20_IIoT.pptx) |
-| 21 | Implantação e Governança | `aula21/shadow_test_composicao.csv` | [abrir](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/aula21_implantacao.ipynb) | [pptx](slides/Aula_21_Governanca.pptx) |
-| 22 | Ética, Segurança Industrial e Responsabilidade | `aula22/torre_resfriamento_12m.csv` | [abrir](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/aula22_etica.ipynb) | [pptx](slides/Aula_22_Etica.pptx) |
-| 23 | O Engenheiro Químico do Futuro | — (radar de competências) | [abrir](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/aula23_futuro.ipynb) | [pptx](slides/Aula_23_Futuro.pptx) |
+| 19 | Interpretabilidade e Explicabilidade (XAI) | `aula19/cstr_exotermico_xai.csv` | [abrir](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/aula19_xai.ipynb) | [pptx](slides/Aula_19_XAI.pptx) · [pdf](slides/pdf/Aula_19_XAI.pdf) |
+| 20 | Gêmeos Digitais, IIoT e LLM | `aula20/trocador_e101_24h.csv` | [abrir](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/aula20_twin_iiot.ipynb) | [pptx](slides/Aula_20_IIoT.pptx) · [pdf](slides/pdf/Aula_20_IIoT.pdf) |
+| 21 | Implantação e Governança | `aula21/shadow_test_composicao.csv` | [abrir](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/aula21_implantacao.ipynb) | [pptx](slides/Aula_21_Governanca.pptx) · [pdf](slides/pdf/Aula_21_Governanca.pdf) |
+| 22 | Ética, Segurança Industrial e Responsabilidade | `aula22/torre_resfriamento_12m.csv` | [abrir](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/aula22_etica.ipynb) | [pptx](slides/Aula_22_Etica.pptx) · [pdf](slides/pdf/Aula_22_Etica.pdf) |
+| 23 | O Engenheiro Químico do Futuro | — (radar de competências) | [abrir](https://colab.research.google.com/github/LuisGSVasconcelos/IA_EngQuimica/blob/main/notebooks/aula23_futuro.ipynb) | [pptx](slides/Aula_23_Futuro.pptx) · [pdf](slides/pdf/Aula_23_Futuro.pdf) |
 
 ### Módulo 6 — Projeto Integrador (Oficinas e Apresentações)
 
 | # | Tema | Formato | Slides |
 |---|------|---------|--------|
-| 24 | Checkpoint e Mentoria do Projeto | Oficina (checklist de diagnóstico) | [pptx](slides/Aula_24_Mentoria.pptx) |
-| 25 | Oficina de Desenvolvimento I (dados + baseline) | Oficina guiada | [pptx](slides/Aula_25_OficinaI.pptx) |
-| 26 | Oficina de Desenvolvimento II (CV + overfitting) | Oficina guiada | [pptx](slides/Aula_26_OficinaII.pptx) |
-| 27 | Consolidação dos Resultados | Relatório executivo | [pptx](slides/Aula_27_Consolidacao.pptx) |
-| 28 | Ensaio e Ajustes de Apresentação | Pitch de 12 min | [pptx](slides/Aula_28_Ensaio.pptx) |
-| 29 | Apresentações Finais I | Seminários (E1–E3) | [pptx](slides/Aula_29_ApresentacoesI.pptx) |
-| 30 | Apresentações Finais II e Encerramento | Seminários (D/E) + premiação | [pptx](slides/Aula_30_Encerramento.pptx) |
+| 24 | Checkpoint e Mentoria do Projeto | Oficina (checklist de diagnóstico) | [pptx](slides/Aula_24_Mentoria.pptx) · [pdf](slides/pdf/Aula_24_Mentoria.pdf) |
+| 25 | Oficina de Desenvolvimento I (dados + baseline) | Oficina guiada | [pptx](slides/Aula_25_OficinaI.pptx) · [pdf](slides/pdf/Aula_25_OficinaI.pdf) |
+| 26 | Oficina de Desenvolvimento II (CV + overfitting) | Oficina guiada | [pptx](slides/Aula_26_OficinaII.pptx) · [pdf](slides/pdf/Aula_26_OficinaII.pdf) |
+| 27 | Consolidação dos Resultados | Relatório executivo | [pptx](slides/Aula_27_Consolidacao.pptx) · [pdf](slides/pdf/Aula_27_Consolidacao.pdf) |
+| 28 | Ensaio e Ajustes de Apresentação | Pitch de 12 min | [pptx](slides/Aula_28_Ensaio.pptx) · [pdf](slides/pdf/Aula_28_Ensaio.pdf) |
+| 29 | Apresentações Finais I | Seminários (E1–E3) | [pptx](slides/Aula_29_ApresentacoesI.pptx) · [pdf](slides/pdf/Aula_29_ApresentacoesI.pdf) |
+| 30 | Apresentações Finais II e Encerramento | Seminários (D/E) + premiação | [pptx](slides/Aula_30_Encerramento.pptx) · [pdf](slides/pdf/Aula_30_Encerramento.pdf) |
 
 > **Nota:** As aulas **24–30** são oficinas/orientação: usam os próprios projetos das equipes,
 > por isso não há datasets técnicos no GitHub — os slides estão em [`slides/`](slides/), e os
