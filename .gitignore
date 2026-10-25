@@ -1,1 +1,9 @@
 .lo-profile/
+__pycache__/
+.ipynb_checkpoints/
+
+# artefatos gerados ao executar os notebooks (a aula 09 salva o modelo treinado)
+*.keras
+*.h5
+*.pkl
+*.joblib
