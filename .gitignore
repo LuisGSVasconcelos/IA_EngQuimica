@@ -7,3 +7,8 @@ __pycache__/
 *.h5
 *.pkl
 *.joblib
+
+# artefatos de build do LaTeX
+professor/*.aux
+professor/*.log
+professor/*.out

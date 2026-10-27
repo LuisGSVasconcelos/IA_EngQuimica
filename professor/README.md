@@ -13,7 +13,29 @@ O guia é escrito para ser lido fora de ordem, conforme a necessidade:
 | [`armadilhas.md`](armadilhas.md) | O que quebra e o que fazer — inclui as falhas já encontradas neste material | Antes do primeiro dia |
 
 **Versão em PDF:** [`guia-do-professor.pdf`](guia-do-professor.pdf) — os quatro documentos
-consolidados, com sumário. Gerado a partir dos `.md`, que são a fonte.
+consolidados, com sumário e capa própria. Gerado a partir dos `.md`, que são a fonte.
+
+**Card para divulgação:** [`capa-linkedin.png`](capa-linkedin.png) — a mesma capa em formato
+quadrado 1199×1199, para post em rede social.
+
+### Remontar o guia
+
+```bash
+./professor/gerar-guia.sh            # PDF + card do LinkedIn
+./professor/gerar-guia.sh --so-pdf   # só o PDF
+```
+
+Requer `pandoc`, `xelatex` (MiKTeX) e `pymupdf`. Os arquivos de arte:
+
+| Arquivo | Função |
+|---|---|
+| `capa.tex` | capa completa, documento independente (para iterar o design sozinho) |
+| `capa-corpo.tex` | a mesma capa sem preâmbulo — é esta que o Pandoc injeta |
+| `capa-linkedin.tex` | versão quadrada 1:1 |
+| `capa-linkedin.png` | saída em imagem, pronta para postar |
+
+> A capa usa `\definecolor` próprio, que vive no preâmbulo de `capa.tex`. O `capa-corpo.tex`
+> repete as definições porque o Pandoc gera o próprio preâmbulo e descarta o do arquivo original.
 
 ---
 
