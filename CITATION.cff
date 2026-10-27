@@ -31,13 +31,6 @@ version: "2.0.0"
 date-released: "2026-10-25"
 license: MIT
 doi: 10.5281/zenodo.23649424
-identifiers:
-  - type: doi
-    value: 10.5281/zenodo.23649424
-    description: "Concept DOI - cita todas as versoes do material"
-  - type: doi
-    value: 10.5281/zenodo.23649425
-    description: "DOI da versao v1.1.1 (snapshot arquivado)"
 repository-code: "https://github.com/LuisGSVasconcelos/IA_EngQuimica"
 url: "https://github.com/LuisGSVasconcelos/IA_EngQuimica"
 keywords:

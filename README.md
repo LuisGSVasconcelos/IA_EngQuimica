@@ -227,7 +227,8 @@ Se este material apoiar sua disciplina ou pesquisa (metadados completos em [`CIT
 
 > VASCONCELOS, L. G. S. **IA Aplicada à Engenharia Química: datasets sintéticos e notebooks**. Campina Grande: UFCG/UAEQ, 2026. DOI: 10.5281/zenodo.23649424. Disponível em: https://github.com/LuisGSVasconcelos/IA_EngQuimica
 
-**DOI:** `10.5281/zenodo.23649424` (concept DOI — válido para todas as versões) · a versão atual está arquivada em `10.5281/zenodo.23649425`.
+**DOI:** `10.5281/zenodo.23649424` (concept DOI — válido para todas as versões). Cada versão
+arquivada tem seu próprio DOI imutável, listado na página do registro no Zenodo.
 
 ---
 
