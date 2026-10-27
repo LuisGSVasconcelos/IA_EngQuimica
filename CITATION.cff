@@ -27,7 +27,7 @@ abstract: >-
   em MIT; dados em CC BY 4.0; conteúdo didático (apresentações, planos, rubricas)
   em CC BY-NC-SA 4.0 — ver LICENSE, dados/LICENSE e LICENSE-CONTEUDO.md no
   repositório.
-version: "1.1.2"
+version: "2.0.0"
 date-released: "2026-10-25"
 license: MIT
 doi: 10.5281/zenodo.23649424
