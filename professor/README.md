@@ -40,14 +40,20 @@ Requer `pandoc`, `xelatex` (MiKTeX) e `pymupdf`. Os arquivos de arte:
 
 ### Sobre a marca da UFCG
 
-`assets/ufcg-logo.png` é o logotipo oficial da Universidade Federal de Campina Grande, obtido em
-<https://ccbs.ufcg.edu.br/index.php/logomarcas>. A imagem é usada **sem alteração** — as cores da
-marca (roxo e ciano) não foram modificadas; para funcionar sobre o fundo escuro da capa, o logo é
-apresentado dentro de um retângulo branco de respiro.
+Dois arquivos, ambos **sem alteração de forma**:
 
-Se a universidade disponibilizar a **versão negativa/monocromática** da marca (arquivo próprio para
-fundo escuro), ela substitui o chip branco sem nenhum outro ajuste de layout — basta trocar o arquivo
-e remover o `\colorbox{branco}{...}` do `capa.tex`.
+| Arquivo | Origem | Onde é usado |
+|---|---|---|
+| `assets/ufcg-logo.png` | versão colorida, de <https://ccbs.ufcg.edu.br/index.php/logomarcas> | referência; serve para fundo claro |
+| `assets/ufcg-logo-branco.png` | versão **negativa** (branca), recortada da prancha P&B do manual de identidade visual em <https://www.ufcg.edu.br/images/identidade_visual/MIV%20UFCG5.jpg> | capa do PDF e card do LinkedIn |
+
+A marca branca foi extraída da prancha do manual — que traz a versão positiva à esquerda, a negativa
+à direita e barras de tom no rodapé — recortando apenas o bloco negativo e convertendo luminância em
+alfa. O traço branco e o desenho do brasão são os originais; o que se removeu foi o fundo preto do
+bloco gráfico, para a marca assentar direto sobre o azul da capa.
+
+> A versão colorida **não** deve ser aplicada sobre o fundo escuro: o roxo `#2E1F74` da marca
+> desaparece no azul `#0E2438`. Por isso a capa usa a negativa.
 
 ---
 
