@@ -2,6 +2,8 @@
 \usepackage[a4paper,margin=2.6cm,top=3.4cm,bottom=2.6cm]{geometry}
 \usepackage{xcolor}
 \usepackage{fontspec}
+\usepackage{graphicx}
+\graphicspath{{assets/}{professor/assets/}{./}}
 \setmainfont{Calibri}
 \definecolor{fundo}{HTML}{0E2438}
 \definecolor{acento}{HTML}{D98324}
@@ -15,10 +17,18 @@
 \color{branco}
 \raggedright
 
-{\fontsize{10}{13}\selectfont\color{acento}\bfseries\MakeUppercase{Guia do Professor}}
-
-\vspace{0.25cm}
-{\color{acento}\rule{3.4cm}{1.8pt}}
+\noindent
+\begin{minipage}[t]{0.60\linewidth}
+  \vspace{0pt}
+  {\fontsize{10}{13}\selectfont\color{acento}\bfseries\MakeUppercase{Guia do Professor}}\\[0.22cm]
+  {\color{acento}\rule{3.4cm}{1.8pt}}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.34\linewidth}
+  \vspace{0pt}
+  \raggedleft
+  \setlength{\fboxsep}{0.17cm}%
+  \colorbox{branco}{\includegraphics[height=1.28cm]{ufcg-logo.png}}
+\end{minipage}
 
 \vspace{3.4cm}
 {\fontsize{40}{47}\selectfont\bfseries IA Aplicada à\\ Engenharia Química\par}

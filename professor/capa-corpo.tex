@@ -1,4 +1,4 @@
-% cores da capa (o Pandoc nao carrega o preambulo do capa.tex)
+% gerado por professor/gerar-capa-corpo.py - nao editar a mao
 \definecolor{fundo}{HTML}{0E2438}
 \definecolor{acento}{HTML}{D98324}
 \definecolor{claro}{HTML}{A8BCCE}
@@ -11,10 +11,18 @@
 \color{branco}
 \raggedright
 
-{\fontsize{10}{13}\selectfont\color{acento}\bfseries\MakeUppercase{Guia do Professor}}
-
-\vspace{0.25cm}
-{\color{acento}\rule{3.4cm}{1.8pt}}
+\noindent
+\begin{minipage}[t]{0.60\linewidth}
+  \vspace{0pt}
+  {\fontsize{10}{13}\selectfont\color{acento}\bfseries\MakeUppercase{Guia do Professor}}\\[0.22cm]
+  {\color{acento}\rule{3.4cm}{1.8pt}}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.34\linewidth}
+  \vspace{0pt}
+  \raggedleft
+  \setlength{\fboxsep}{0.17cm}%
+  \colorbox{branco}{\includegraphics[height=1.28cm]{ufcg-logo.png}}
+\end{minipage}
 
 \vspace{3.4cm}
 {\fontsize{40}{47}\selectfont\bfseries IA Aplicada à\\ Engenharia Química\par}
@@ -42,7 +50,6 @@
 {\fontsize{10.5}{15.5}\selectfont\color{rodape}
  DOI 10.5281/zenodo.23649424 · versão 2.0.0\\
  Material aberto · conteúdo sob licença CC BY-NC-SA 4.0\par}
-
 \clearpage
 \restoregeometry
 \pagecolor{white}

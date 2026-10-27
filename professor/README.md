@@ -36,6 +36,18 @@ Requer `pandoc`, `xelatex` (MiKTeX) e `pymupdf`. Os arquivos de arte:
 
 > A capa usa `\definecolor` próprio, que vive no preâmbulo de `capa.tex`. O `capa-corpo.tex`
 > repete as definições porque o Pandoc gera o próprio preâmbulo e descarta o do arquivo original.
+> `capa-pacotes.tex` injeta o `graphicx`, que o template do Pandoc não carrega.
+
+### Sobre a marca da UFCG
+
+`assets/ufcg-logo.png` é o logotipo oficial da Universidade Federal de Campina Grande, obtido em
+<https://ccbs.ufcg.edu.br/index.php/logomarcas>. A imagem é usada **sem alteração** — as cores da
+marca (roxo e ciano) não foram modificadas; para funcionar sobre o fundo escuro da capa, o logo é
+apresentado dentro de um retângulo branco de respiro.
+
+Se a universidade disponibilizar a **versão negativa/monocromática** da marca (arquivo próprio para
+fundo escuro), ela substitui o chip branco sem nenhum outro ajuste de layout — basta trocar o arquivo
+e remover o `\colorbox{branco}{...}` do `capa.tex`.
 
 ---
 

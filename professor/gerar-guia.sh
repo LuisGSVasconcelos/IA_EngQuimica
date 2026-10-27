@@ -15,9 +15,13 @@ SO_PDF=0
 [ "${1:-}" = "--so-pdf" ] && SO_PDF=1
 
 echo "== PDF =="
+# corpo da capa gerado a partir de capa.tex
+python professor/gerar-capa-corpo.py
+
 pandoc professor/ementa.md professor/cronograma.md professor/rubricas.md professor/armadilhas.md \
   -o professor/guia-do-professor.pdf \
   --toc --toc-depth=2 --pdf-engine=xelatex \
+  --include-in-header=professor/capa-pacotes.tex \
   --include-before-body=professor/capa-corpo.tex \
   -V documentclass=report -V geometry:margin=2.4cm -V fontsize=11pt \
   -V mainfont="Calibri" -V colorlinks=true -V toc-title="Sumário"
